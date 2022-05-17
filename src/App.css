@@ -1,6 +1,21 @@
+#root{
+  min-height: 100vh;
+  display: flex;
+  background: rgb(238, 174, 202);
+    background: linear-gradient(122deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  /* background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%); */
+}
+
 .App {
   text-align: center;
+  font-size: 42px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  flex: 1;
+  color: rgb(35, 30, 30);
+  align-self: center;
 }
+
 
 .App-logo {
   height: 40vmin;
